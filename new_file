@@ -4,6 +4,6 @@ tous_les_caracteres = [p for p in phrase]
 nombre_lettres = 0
 for c in tous_les_caracteres:
     if c not in [' ', '!', ',','?', ':', '.',';','-']:
-        nombre_lettres = nombre_lettres + 1
+        nombre_lettres +=1
 
 print(nombre_lettres)
